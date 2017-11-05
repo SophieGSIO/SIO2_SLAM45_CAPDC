@@ -32,10 +32,18 @@ namespace ClassCapdc
         {
             return this.surface;
         }
+        /// <summary>
+        /// Accesseur sur l'attribut lesTraitementsPhytosanitaires
+        /// </summary>
+        /// <returns></returns>
         public List<TraitementPhytosanitaire> GetLesTraitementsPhytosanitaires()
         {
             return this.lesTraitementsPhyto;
         }
+        /// <summary>
+        /// Méthode AjouteUnTraitement
+        /// </summary>
+        /// <param name="unTraitement"></param>
         public void AjouteUnTraitement(TraitementPhytosanitaire unTraitement)
         {
             this.lesTraitementsPhyto.Add(unTraitement);
